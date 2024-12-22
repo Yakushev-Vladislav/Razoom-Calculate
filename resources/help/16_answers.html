@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Справка: ответы на вопросы (FAQ)</title>
+    <link rel="stylesheet" href="style.css"> <!-- Подключение CSS -->
+
+    <script>
+        function toggleContent(id) {
+            var content = document.getElementById(id);
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+<h1>Часто задаваемые вопросы (FAQ)</h1>
+
+<div>
+    <p class="question" onclick="toggleContent('answer1')">Что делать, если приложение не запускается?</p>
+    <div class="answer" id="answer1">
+   <ol>
+        <li><b>Если приложение не запускается после установки</b>.
+        <p>Убедитесь, что ваше устройство удовлетворяет
+            <a href="2_setup.html">рекомендуемым системным
+            требованиям</a>. </p><p>Посмотрите путь к директории
+            приложения. Если приложение установлено в папку
+            <code>С/Program files</code>, то попробуйте запустить
+            приложение <code>от имени Администратора</code>. Если
+            приложение всё ещё не запускается, попробуйте его переустановить, следуя <a href="2_setup.html">инструкции</a>.</p></li>
+
+        <li><b>Если приложение перестало запускаться</b>. <p>Вероятно была нарушена целостность структуры файлов конфигурации программы. Если не хотите потерять актуальные настройки приложения, рекомендуем обратиться в <a href="15_contacts.html">поддержку</a>. Иначе можете просто переустановить приложение.</p></li>
+    </ol>
+    </div>
+</div>
+
+<div>
+    <p class="question" onclick="toggleContent('answer2')">Как удалить
+        приложение?</p>
+    <div class="answer" id="answer2">
+    <p>Удалить приложение можно через деинсталлятор <code>unins000.exe</code>,
+    располагающийся в корневой директории приложения.</p>
+    <p>Также можно удалить директорию приложения вручную.</p>
+    </div>
+</div>
+
+<div>
+    <p class="question" onclick="toggleContent('answer3')">Где найти руководство пользователя?</p>
+    <div class="answer" id="answer3">
+        <p>Руководство пользователя можно открыть через команду меню Помощь →
+        Руководство пользователя.</p>
+        <p>Также руководство можно открыть вручную в основной директории
+        приложения <code>/Razoom-Calculate/resources/help/user_guide.pdf</code>.</p>
+    </div>
+</div>
+
+<div>
+    <p class="question" onclick="toggleContent('answer4')">Где хранятся файлы настроек?</p>
+    <div class="answer" id="answer4">
+        <p>Файлы настроек находятся в директории <code>settings</code>, корневой
+        директории приложения.</p>
+        <div class="info-box">
+        <span class="warning-icon">⚠</span>
+        Не изменяйте файлы настроек вручную, если не уверены в корректности
+        вносимых данных. В случае нарушения целостности структуры фалов
+        программа может не работать или работать некорректно.
+        </div>
+        <p><a href="14_file_structure.html">Подробнее о файловой структуре
+        приложения</a>.</p>
+    </div>
+</div>
+
+<div>
+    <p class="question" onclick="toggleContent('answer5')">Как сбросить настройки "По-умолчанию"?</p>
+    <div class="answer" id="answer5">
+        В каждом разделе настроек приложения есть кнопка <code>Сброс</code> или <code>Сбросить настройки</code>.
+    </div>
+</div>
+
+<div>
+    <p class="question" onclick="toggleContent('answer6')">Как изменить
+        настройки "По-умолчанию"?</p>
+    <div class="answer" id="answer6">
+        <p>
+        Для изменения файлов конфигурации "По-умолчанию" необходимо заменить
+        соответствующий файл настроек <code>.ini</code> формата в
+        директории <code>/default/</code> на файл с требуемыми
+        настройками.
+        </p>
+        <p>
+        Например, пользователь внёс правки в основные настройки внутри
+        программы. Тогда для их сохранения в конфигурацию "По-умолчанию"
+        требуется скопировать (с заменой) файл
+        <code>settings/settings.ini</code> в папку <code>settings/default</code>.
+        </p>
+        <p><a href="14_file_structure.html">Подробнее о файловой структуре
+        приложения</a>.</p>
+    </div>
+</div>
+
+<div>
+    <p class="question" onclick="toggleContent('answer7')">Как обратиться в
+        поддержку?</p>
+    <div class="answer" id="answer7">
+        <p>Вы можете связаться с нами любым удобным вам способом:
+        <p><u>Контакты компании</u></p>
+        <ul>
+            <li>Сайт: <a href="https://razoom-laser.ru/" target="_blank">https://razoom-laser.ru/</a></li>
+            <li>email: info@razoom-laser.ru</li>
+        </ul>
+        <p></p>
+        <p><u>Контакты разработчика</u></p>
+        <ul>
+        <li>telegram: <a href="https://t.me/yakush_ev" target="_blank">@yakush_ev</a> </li>
+        <li>GitHub: <a href="https://github.com/Yakushev-Vladislav"
+                       target="_blank">Yakushev-Vladislav</a></li>
+        <li>email: yakushev_vladislav@mail.ru</li>
+    </ul>
+    </div>
+</div>
+
+<div>
+    <p class="question" onclick="toggleContent('answer8')">Где находятся
+        логи приложения?</p>
+    <div class="answer" id="answer8">
+        <p>Логи приложения находятся в директории <code>log</code>, корневой директории приложения.</p>
+    <p><a href="14_file_structure.html">Подробнее о файловой структуре
+        приложения</a>.</p>
+    </div>
+</div>
+
+</body>
+</html>

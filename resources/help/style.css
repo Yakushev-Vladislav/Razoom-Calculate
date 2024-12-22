@@ -1,0 +1,129 @@
+/* Основной стиль для страницы */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Заголовки */
+h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+/* Списки */
+ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 40px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin: 10px 0;
+    padding-left: 40px;
+}
+
+/* Ссылки */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Изображения */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Центрирует изображение, если это необходимо */
+    margin: 0 auto; /* Центрирует изображение */
+}
+
+/* Подписи */
+figcaption {
+    font-size: 14px;
+    color: #555;
+    text-align: center; /* Центрирует текст подписи */
+    font-style: italic; /* Сделать подпись курсивом */
+    margin-top: 5px;
+}
+
+
+/* Контейнер с изображениями */
+.image-container {
+    display: grid; /* Включаем grid */
+    grid-template-columns: repeat(2, 1fr); /* 2 столбца одинаковой ширины */
+    gap: 20px; /* Промежуток между изображениями */
+    justify-items: center; /* Центрируем все элементы внутри grid */
+}
+
+/* Стили для изображения */
+.image-container figure {
+    margin: 0; /* Убираем внешние отступы у figure */
+    text-align: center; /* Центрируем изображение и подпись */
+}
+
+/* Изображения */
+.image-container img {
+    max-width: 100%;  /* Изображение растягивается по ширине контейнера */
+    height: auto;     /* Сохраняем пропорции */
+}
+
+/* Подписи */
+.image-container figcaption {
+    font-size: 14px;
+    color: #555; /* Цвет текста подписи */
+    margin-top: 10px; /* Отступ сверху для подписи */
+    font-style: italic; /* Курсив */
+}
+
+
+/* Стиль для выделения важной информации */
+.info-box {
+    border: 1px solid black; /* Толщина и цвет рамки */
+    padding: 10px; /* Внутренний отступ */
+    margin: 10px 0; /* Отступы сверху и снизу */
+    background-color: #f9f9f9; /* Фоновый цвет */
+    border-radius: 3px; /* Закругление углов */
+    font-size: 16px; /* Размер шрифта */
+}
+
+/* Иконка предупреждения внутри рамки */
+.info-box .warning-icon {
+    font-weight: bold;
+    color: #333; /* цвет иконки */
+    margin-right: 5px; /* Отступ справа от иконки */
+}
+
+code {
+    color: #d63384; /* Розовый цвет */
+    background-color: #f8f9fa; /* Светло-серый фон */
+    padding: 2px 4px; /* Небольшой отступ */
+    border-radius: 4px; /* Закруглённые углы */
+    font-size: 90%; /* Чуть меньше основного текста */
+}
+
+/* Стили вопроса */
+.question {
+    font-weight: bold;
+    cursor: pointer;
+    color: #287dde;
+}
+
+/* Ответ скрыт по умолчанию */
+.answer {
+    display: none;
+    margin-left: 20px;
+}

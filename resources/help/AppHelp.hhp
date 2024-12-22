@@ -1,0 +1,33 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=AppHelp.chm
+Contents file=Table of Contents.hhc
+Default topic=index.html
+Display compile progress=No
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x419 Русский (Россия)
+Title=AppHelp
+
+
+[FILES]
+index.html
+1_app_info.html
+2_setup.html
+3_license_info.html
+4_main_window.html
+5_engraving_calculation.html
+6_sheet_material_calculation.html
+7_engraving_calculation_by_time.html
+8_time_calculation.html
+9_bmp_recommendations.html
+10_menu.html
+11_main_settings.html
+12_materials_settings.html
+13_depth_calculation.html
+14_file_structure.html
+15_contacts.html
+16_answers.html
+
+[INFOTYPES]
+

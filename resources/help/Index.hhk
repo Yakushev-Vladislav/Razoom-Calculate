@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&igrave;&aring;&iacute;&thorn;">
+		<param name="Name" value="Полоса меню">
+		<param name="Local" value="10_menu.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&atilde;&euml;&agrave;&acirc;&iacute;&icirc;&aring; &icirc;&ecirc;&iacute;&icirc;">
+		<param name="Name" value="Главное окно">
+		<param name="Local" value="4_main_window.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&Iacute;&agrave;&ntilde;&ograve;&eth;&icirc;&eacute;&ecirc;&egrave;">
+		<param name="Name" value="Настройки приложения">
+		<param name="Local" value="11_main_settings.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="&ecirc;&icirc;&iacute;&ograve;&agrave;&ecirc;&ograve;&ucirc; &egrave; &iuml;&icirc;&auml;&auml;&aring;&eth;&aelig;&ecirc;&agrave;">
+		<param name="Name" value="Контакты и поддержка">
+		<param name="Local" value="15_contacts.html">
+		</OBJECT>
+</UL>
+</BODY></HTML>
